@@ -34,15 +34,15 @@ repos:
         language: python
         types: [python]
 
--   repo: https://github.com/codespell-project/codespell.git
-    rev: v1.16.0  # Use the sha / tag you want to point at
-    hooks:
-    -   id: codespell
-        name: codespell
-        description: Checks for common misspellings in text files.
-        entry: codespell
-        language: python
-        types: [text]
+# -   repo: https://github.com/codespell-project/codespell.git
+#     rev: v1.16.0  # Use the sha / tag you want to point at
+#     hooks:
+#     -   id: codespell
+#         name: codespell
+#         description: Checks for common misspellings in text files.
+#         entry: codespell
+#         language: python
+#         types: [text]
 
 # -   repo: https://github.com/seddonym/import-linter.git
 #     rev: v1.1b2  # Use the sha / tag you want to point at
