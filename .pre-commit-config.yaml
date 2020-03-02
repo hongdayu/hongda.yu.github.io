@@ -1,0 +1,56 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.4.0
+    hooks:
+    -   id: trailing-whitespace
+    -   id: end-of-file-fixer
+    -   id: check-yaml
+    -   id: check-added-large-files
+    -   id: check-docstring-first
+    -   id: pretty-format-json
+    -   id: check-merge-conflict
+    -   id: fix-encoding-pragma
+        # args: [--remove]
+    -   id: mixed-line-ending
+    -   id: requirements-txt-fixer
+    -   id: sort-simple-yaml
+    -   id: requirements-txt-fixer
+
+-   repo: https://github.com/pre-commit/mirrors-autopep8
+    rev: v1.5  # Use the sha / tag you want to point at
+    hooks:
+    -   id: autopep8
+
+-   repo: https://github.com/myint/docformatter.git
+    rev: v1.3.1  # Use the sha / tag you want to point at
+    hooks:
+    -   id: docformatter
+        name: docformatter
+        description: 'Formats docstrings to follow PEP 257.'
+        entry: docformatter
+        args: [-i]
+        language: python
+        types: [python]
+
+-   repo: https://github.com/codespell-project/codespell.git
+    rev: v1.16.0  # Use the sha / tag you want to point at
+    hooks:
+    -   id: codespell
+        name: codespell
+        description: Checks for common misspellings in text files.
+        entry: codespell
+        language: python
+        types: [text]
+
+# -   repo: https://github.com/seddonym/import-linter.git
+#     rev: v1.1b2  # Use the sha / tag you want to point at
+#     hooks:
+#     -   id: import-linter
+#         name: import-linter
+#         description: Import Linter allows you to define and enforce rules for the internal and external imports within your Python project.
+#         entry: lint-imports
+#         language: python
+#         types: [python]
+#         pass_filenames: false
