@@ -4,7 +4,7 @@ title: weight decay trick.
 subtitle: weight decay trick.
 gh-repo: hongdayu/hongdayu.github.io
 gh-badge: [star, fork, follow]
-tags: [trick,cv,weight_decay]
+tags: [trick,cv,weight_decay, code]
 comments: true
 ---
 

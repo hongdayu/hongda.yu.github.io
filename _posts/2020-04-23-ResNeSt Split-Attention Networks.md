@@ -4,7 +4,7 @@ title: ResNeSt:Split-Attention Networks
 subtitle: Amazon李沐团队
 gh-repo: hongdayu/hongdayu.github.io
 gh-badge: [star, fork, follow]
-tags: [cv, network, attention]
+tags: [cv, network, attention, code]
 comments: true
 ---
 
