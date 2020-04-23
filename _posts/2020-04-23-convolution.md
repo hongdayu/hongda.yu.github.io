@@ -11,11 +11,18 @@ comments: true
 - [转置卷积](#%e8%bd%ac%e7%bd%ae%e5%8d%b7%e7%a7%af)
 - [空洞卷积](#%e7%a9%ba%e6%b4%9e%e5%8d%b7%e7%a7%af)
 - [sub-pixel convolution](#sub-pixel-convolution)
+
+
 #### 普通卷积
 
 #### 转置卷积
 
+输入的pixel间增加间隔,
+
 #### 空洞卷积
+
+卷积核内增加间隔
 
 #### sub-pixel convolution
 
+卷积 + pixel suffle
